@@ -1,0 +1,52 @@
+/* src/pages/SignUpPage.css */
+
+.container {
+    background-color: #f9f9f9;
+    padding: 2rem 0;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .signup-option {
+    padding: 2rem;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    cursor: pointer;
+    transition: border-color 0.3s;
+  }
+  
+  .signup-option h4 {
+    color: rgb(249, 115, 22);
+  }
+  
+  .signup-option.selected {
+    border-color: rgb(249, 115, 22);
+  }
+  
+  .signup-option ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .signup-option ul li {
+    margin-bottom: 1rem;
+  }
+  
+  .signup-option:hover {
+    border-color: rgb(249, 115, 22);
+  }
+  
+  .btn-primary {
+    background-color: rgb(249, 115, 22);
+    border-color: rgb(249, 115, 22);
+  }
+  
+  .btn-primary:hover {
+    background-color: rgb(229, 105, 20);
+    border-color: rgb(229, 105, 20);
+  }
+  

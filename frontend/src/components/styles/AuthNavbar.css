@@ -1,0 +1,30 @@
+/* src/components/AuthNavbar.css */
+
+.auth-navbar {
+    background-color: rgb(202, 95, 19); /* Dark blue color */
+    color: white;
+  }
+  
+  .navbar-logo {
+    height: 40px;
+  }
+  
+  .nav-link {
+    color: white !important;
+  }
+  
+  .nav-link:hover {
+    color: #f97316 !important; /* Main color */
+  }
+  
+  .badge {
+    font-size: 0.75em;
+    vertical-align: top;
+    margin-left: -10px;
+  }
+  
+  .bi-bell, .bi-gear {
+    font-size: 1.25em;
+    color: white;
+  }
+  

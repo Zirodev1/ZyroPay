@@ -1,7 +1,7 @@
 // src/pages/LoginPage.js
 import React, { useState } from 'react';
 import { Link } from'react-router-dom';
-import { TextField, Button, Container, Typography } from '@mui/material';
+import { TextField, Button, Typography } from '@mui/material';
 
 const LoginPage = () => {
   const [formData, setFormData] = useState({
@@ -19,7 +19,7 @@ const LoginPage = () => {
   };
 
   return (
-    <Container>
+    <div className='container mt-5'>
       <Typography variant="h4">Login</Typography>
       <form onSubmit={handleSubmit}>
         <TextField
@@ -47,7 +47,7 @@ const LoginPage = () => {
       <Link to="/signup">
         <Button variant="outlined" color="secondary">Sign Up</Button>
       </Link>
-    </Container>
+    </div>
   );
 };
 
